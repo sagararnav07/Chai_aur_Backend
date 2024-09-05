@@ -1,0 +1,16 @@
+{
+  "name": "chai_aur_backend",
+  "version": "1.0.0",
+  "description": "A backend project from youtube channel Chai aur code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
+  "author": "Arnav Sagar",
+  "license": "ISC"
+}
