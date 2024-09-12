@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 import { DB_NAME } from "../constant.js";
 
 
-const connectDB = async () => {
+const connectDB = async () => {  //Asynchronous method after completion returns a promise
 
     try{
       const connectionInstance =  await mongoose.connect(`${process.env.MONGODB_URI}/${DB_NAME}`) //MONGODB_URI is in .env $ DB_NAME is in constant.js
