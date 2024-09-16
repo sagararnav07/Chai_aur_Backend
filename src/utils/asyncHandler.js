@@ -3,6 +3,7 @@ such as database queries or API calls, within route handlers. It helps streamlin
 wrapping asynchronous code in a way that automatically catches any errors and passes them to the next
  middleware (such as an error handler) using next().*/
 
+ //HELPER FILE
 //1. Wrapper function (using promise)  that wil be used everywhere will reduce redundancy
 const asyncHandler = (requestHandler)=>{ 
     (req,res,next) => {
